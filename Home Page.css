@@ -1,0 +1,51 @@
+body{
+    background: url('Asset/PWDImage.jpg') no-repeat scroll 0 0;
+    
+}
+.Header{
+    background-color: green;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 30px;
+    margin-bottom: 100px;
+}
+
+img{
+    width: 100px;
+}
+.img{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+.button1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.button2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.page-footer {
+	background: #fff;
+    left: 0;
+	right: 0;
+	bottom: 0;
+	position: fixed;
+	text-align: center;
+	padding: 7px;
+	font-size: 14px;
+	border-top: 1px solid #e4e4e4;
+	z-index: 3
+}
+
+@media only screen and (max-width: 600px) {
+    .img {
+        display: block;
+      }
+     
+  }
